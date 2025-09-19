@@ -1,6 +1,4 @@
-
 import re
-
 def check_password_strength(password):
     score = 0
     feedback = []
@@ -36,3 +34,4 @@ def check_password_strength(password):
         return "Medium Password ⚠️", feedback
     else:
         return "Weak Password ❌", feedback
+
